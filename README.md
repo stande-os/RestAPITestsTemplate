@@ -12,10 +12,11 @@ Ensure you have Visual Studio 2017 with extension "SpecFlow for VisualStudio 201
 - FluentAssertions - to make flexible assertions
 
 # How to run tests
- 1. Open the solution in Visual Studio 2017 
- 2. Open menu Test>Windows>Test Explorer
- 3. Build the solution
- 4. In the Test Explorer, run the tests
+ - Open the solution in Visual Studio 2017 
+ - Open menu Test>Windows>Test Explorer
+ - Restore NuGet packages (SpecFlow, RestSharp, FluentAssertions)
+ - Build the solution
+ - In the Test Explorer, run the tests
 
 # Expected result
 All tests should run and pass
